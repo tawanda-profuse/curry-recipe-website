@@ -1,4 +1,4 @@
-# <h1>curry-recipe-website</h1>
+# <h1>Curry Recipe Website</h1>
 
 <p>A website that displays several curry recipes for a registered user. The website uses Node.js express with JSON Web Tokens.
 </p>
