@@ -16,14 +16,14 @@ app.set("view engine", "ejs");
 
 // database connection
 const dbURI =
-  "mongodb+srv://user_1:pass123456@firstcluster.tngyj.mongodb.net/node-auth";
+  'mongodb://tawanda:NqagCxbKs54C9Qw@curryrecipes-shard-00-00.nj5x6.mongodb.net:27017,curryrecipes-shard-00-01.nj5x6.mongodb.net:27017,curryrecipes-shard-00-02.nj5x6.mongodb.net:27017/curry-recipes?ssl=true&replicaSet=atlas-zudhbc-shard-0&authSource=admin&retryWrites=true&w=majority';
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .then((result) => app.listen(8080))
+  .then((result) => app.listen(8080)) // change to 3000
   .catch((err) => console.log(err));
 
 // routes

@@ -1,5 +1,5 @@
 {
-  "name": "node-express-jwt-auth",
+  "name": "curry-recipe-site",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/node-express-jwt-auth.git"
+    "url": "git+https://github.com/tawanda-profuse/curry-recipe-website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/node-express-jwt-auth/issues"
+    "url": "https://github.com/tawanda-profuse/curry-recipe-website/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/node-express-jwt-auth#readme"
+  "homepage": "https://github.com/tawanda-profuse/curry-recipe-website#readme"
 }
