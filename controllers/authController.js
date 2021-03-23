@@ -36,7 +36,7 @@ const handleErrors = (err) => {
 }
 
 // create json web token
-const maxAge = 3 * 24 * 60 * 60;
+const maxAge = 3 * 24 * 60 * 60; // Maximum amount of days the cookie will exist = 3 days(259 200 seconds)
 const createToken = (id) => {
   return jwt.sign({ id }, 'net ninja secret', {
     expiresIn: maxAge
