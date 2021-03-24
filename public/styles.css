@@ -24,7 +24,7 @@ footer {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  color: red;
+  color:red;
 }
 
 ul {
@@ -65,6 +65,18 @@ nav li a {
   background: yellow;
 }
 
+.btn:hover{
+  background:orange;
+}
+.choose {
+  border-radius: 36px;
+  background: black;
+}
+
+.choose:hover{
+  background:cyan;
+}
+
 form h2 {
   font-size: 2.4em;
   font-weight: 900;
@@ -96,7 +108,7 @@ label {
 button {
   margin-top: 30px;
   border-radius: 36px;
-  background: #FEE996;
+  background:lightblue; /*#FEE996*/
   border: 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -104,6 +116,9 @@ button {
   display: block;
   padding: 10px 16px;
   letter-spacing: 2px;
+}
+button:hover {
+  background: yellowgreen;
 }
 
 .error {
@@ -135,10 +150,14 @@ header h3 {
   font-size: 1.6em;
   margin-bottom: 10px;
   margin-left: 2px;
-  color: #999;
+  color:lightslategrey;
+}
+header h3:hover{
+  color: red;
+  cursor: pointer;
 }
 
-header .btn {
+header .btn { 
   margin-top: 20px;
   padding: 12px 18px;
   text-transform: uppercase;
@@ -159,10 +178,14 @@ header .btn {
 .recipe {
   display: inline-block;
   border-radius: 20px;
-  background: white;
+  background: whitesmoke;
   position: relative;
   text-align: center;
   padding: 0 20px 30px 20px
+}
+.recipe:hover{
+  background: yellow;
+  cursor: pointer;
 }
 
 .recipe img {
@@ -176,4 +199,7 @@ footer {
   margin-top: 120px;
   color: orangered;
   font-weight: bold;
+  /* just added */
+  height: 50px;
+  margin-top: 320px;
 }
