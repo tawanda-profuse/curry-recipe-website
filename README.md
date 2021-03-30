@@ -13,7 +13,7 @@
   <li><b>npm install</b></li>
   <li><b>npm init</b></li>
   <li><b>node app</b></li>
-  <li>Lastly, open your browser at the port specified in app.js (should be port 3000)</li>
+  <li>Lastly, open your browser at the port specified in app.js (should be port 8080)</li>
 </ol>
 
 
