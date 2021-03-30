@@ -16,7 +16,7 @@ app.set("view engine", "ejs");
 
 // database connection
 const dbURI =
-  'mongodb://tawanda:NqagCxbKs54C9Qw@curryrecipes-shard-00-00.nj5x6.mongodb.net:27017,curryrecipes-shard-00-01.nj5x6.mongodb.net:27017,curryrecipes-shard-00-02.nj5x6.mongodb.net:27017/curry-recipes?ssl=true&replicaSet=atlas-zudhbc-shard-0&authSource=admin&retryWrites=true&w=majority';
+  'mongodb://tawanda:<password>@curryrecipes-shard-00-00.nj5x6.mongodb.net:27017,curryrecipes-shard-00-01.nj5x6.mongodb.net:27017,curryrecipes-shard-00-02.nj5x6.mongodb.net:27017/curry-recipes?ssl=true&replicaSet=atlas-zudhbc-shard-0&authSource=admin&retryWrites=true&w=majority';
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
