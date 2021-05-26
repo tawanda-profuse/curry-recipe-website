@@ -8,11 +8,10 @@
 
 <h2>Installation Steps:</h2>
 
-<p>After extracting the zip file, type the following commands in your local terminal where the folder is located.</p>
+<p>After extracting the zip file, open the folder with your editor of choice. Type the following commands in your local terminal where the folder is located.</p>
 <ol>
   <li><b>npm install</b></li>
-  <li><b>npm init</b></li>
-  <li><b>node app</b></li>
+  <li><b>npm run devStart</b></li>
   <li>Lastly, open your browser at the port specified in app.js (should be port 8080)</li>
 </ol>
 
