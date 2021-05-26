@@ -8,7 +8,7 @@
 
 <h2>Installation Steps:</h2>
 
-<p>After extracting the zip file, open the folder with your editor of choice. Type the following commands in your local terminal where the folder is located.</p>
+<p>After cloning and extracting the zip file, open the folder with your editor of choice. Type the following commands in your local terminal where the folder is located.</p>
 <ol>
   <li><b>npm install</b></li>
   <li><b>npm run devStart</b></li>
