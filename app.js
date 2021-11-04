@@ -28,10 +28,12 @@ mongoose
     useCreateIndex: true,
   })
   //.then((result) => app.listen(8080)).catch((err) => console.log(err));
-  .then((result) => app.listen(process.env.PORT || 3000, function(){
-     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-   })
-  .catch((err) => console.log(err));
+  .then((result) => app.listen(process.env.PORT || 3000 
+  //   ,function(){
+  //    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  //  }
+   )
+  .catch((err) => console.log(err)));
 
 // routes
 app.get("*", checkUser);
